@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pixelify+Sans:wght@400..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+	--color-primary: #e4ff14;
+}
+
+.pixelify-sans {
+	font-family: "Pixelify Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+.font-readable {
+	font-family: "Inter", sans-serif;
+}
+
+:root {
+	font-family: "Pixelify Sans", sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #ffffff;
+	background-color: #000000;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
