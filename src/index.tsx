@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import Pricing from "./Pricing";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 const rootEl = document.getElementById("root");
 if (rootEl) {
@@ -13,6 +14,7 @@ if (rootEl) {
 				<Routes>
 					<Route path="/" element={<App />} />
 					<Route path="/pricing" element={<Pricing />} />
+					<Route path="/privacy" element={<PrivacyPolicy />} />
 				</Routes>
 			</BrowserRouter>
 		</React.StrictMode>,
